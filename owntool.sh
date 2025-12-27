@@ -26,8 +26,8 @@ echo "--------------------------------------------------------"
 
 # start tool
 if [[ ${#2} -gt 0 ]]; then
-	python ~/Desktop/tools/MyOWN/OwnFUZZER/src/Hackanon.py $1 $2
+	python src/Hackanon.py $1 $2
 else
-	python ~/Desktop/tools/MyOWN/OwnFUZZER/src/Hackanon.py $1 ~/Desktop/tools/MyOWN/OwnFUZZER/src/common.txt
+	python src/Hackanon.py $1 src/common.txt
 fi
 # end
