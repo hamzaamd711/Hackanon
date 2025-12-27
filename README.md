@@ -6,4 +6,4 @@ you can just do ( ./owntool URL ) because it has a default wordlist src/common.t
 
 ------------------------------------------------------------------
 WARNING >>> if you want fast tools don't use this, it's very slow 
-
+-
