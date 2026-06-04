@@ -26,8 +26,8 @@ echo "--------------------------------------------------------"
 
 # start tool
 if [[ ${#2} -gt 0 ]]; then
-	python src/Hackanon.py $1 $2
+	python3 src/Hackanon.py $1 $2
 else
-	python src/Hackanon.py $1 src/common.txt
+	python3 src/Hackanon.py $1 src/common.txt
 fi
 # end
